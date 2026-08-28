@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Usmani Online - Learn Quran online with qualified teachers. Quran reading, Tajweed, Hifz, Qaida, Translation and Tafseer.">
+<title>Usmani Online | Learn Quran Online</title>
+<style>
+:root{--green:#116b67;--dark:#062f35;--gold:#c99a35;--cream:#fbfaf5;--text:#183238;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--cream);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.nav{position:sticky;top:0;z-index:20;background:rgba(6,47,53,.97);color:#fff;box-shadow:0 4px 18px #0002}
+.nav-inner{max-width:1180px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-family:Georgia,serif;font-size:25px;letter-spacing:1px;color:#fff}.logo span{color:#e0b54d}
+.nav-links{display:flex;gap:22px;font-size:14px}.nav-links a:hover{color:#e4bd60}
+.btn{display:inline-block;border:0;border-radius:9px;padding:13px 21px;font-weight:700;cursor:pointer}
+.btn-gold{background:linear-gradient(135deg,#e0b24e,#b98221);color:#fff}.btn-green{background:var(--green);color:#fff}
+.hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#f8f7f1 45%,#e7efe8)}
+.hero-inner{max-width:1180px;margin:auto;min-height:620px;padding:80px 22px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:45px}
+.kicker{color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:13px}
+h1{font-family:Georgia,serif;font-size:clamp(45px,6vw,76px);line-height:1.03;color:#0a4d50;margin:10px 0}
+h1 span{color:#b97827}
+.hero p{font-size:18px;max-width:590px;margin:22px 0;color:#43575b}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-card{position:relative;border-radius:28px;overflow:hidden;box-shadow:0 25px 70px #173f3a35;border:8px solid #fff;background:#fff}
+.hero-card img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover}
+.pattern{height:12px;background:repeating-linear-gradient(45deg,var(--green) 0 10px,#fff 10px 18px,#c99a35 18px 23px,#fff 23px 31px)}
+.section{padding:75px 22px}.container{max-width:1180px;margin:auto}
+.center{text-align:center}.section h2{font-family:Georgia,serif;color:#0b5052;font-size:38px;margin:7px 0 12px}
+.sub{max-width:720px;margin:0 auto 35px;color:#66767a}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border:1px solid #e7e2d4;border-radius:18px;padding:28px;box-shadow:0 8px 25px #163d3210;transition:.2s}
+.card:hover{transform:translateY(-5px);box-shadow:0 16px 35px #163d3220}
+.icon{width:55px;height:55px;border-radius:50%;display:grid;place-items:center;background:#e6f2eb;color:var(--green);font-size:25px;margin-bottom:16px}
+.card h3{font-size:20px;color:#164e50;margin-bottom:8px}
+.why{background:#07363b;color:#fff}.why h2{color:#fff}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.feature{text-align:center;padding:20px}.feature strong{display:block;color:#e2b653;font-size:18px;margin-top:8px}
+.cta{background:linear-gradient(135deg,#116b67,#06383e);color:#fff;text-align:center;padding:65px 22px}
+.cta h2{color:#fff}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:start}
+.contact-box{background:#fff;border-radius:18px;padding:28px;box-shadow:0 8px 25px #163d3210}
+.contact-item{padding:13px 0;border-bottom:1px solid #eee}.contact-item:last-child{border:0}
+form{display:grid;gap:12px}input,select,textarea{width:100%;padding:13px;border:1px solid #d7d9d4;border-radius:9px;font:inherit;background:#fff}textarea{min-height:100px;resize:vertical}
+footer{background:#042b31;color:#dce9e6;padding:25px 22px;text-align:center;font-size:14px}
+.small{font-size:13px;color:#758589}
+@media(max-width:850px){.nav-links{display:none}.hero-inner{grid-template-columns:1fr;padding-top:55px}.hero-card{max-width:520px;margin:auto}.cards{grid-template-columns:1fr 1fr}.features{grid-template-columns:1fr 1fr}.contact{grid-template-columns:1fr}}
+@media(max-width:520px){.cards{grid-template-columns:1fr}.features{grid-template-columns:1fr 1fr}.section{padding:55px 16px}.hero-inner{padding-left:16px;padding-right:16px}h1{font-size:48px}}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#home">USMANI <span>ONLINE</span></a>
+    <div class="nav-links">
+      <a href="#home">Home</a><a href="#courses">Courses</a><a href="#why">Why Us</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </div>
+    <a class="btn btn-gold" href="#contact">Free Trial</a>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+ <div class="hero-inner">
+  <div>
+   <div class="kicker">Online Quran Academy</div>
+   <h1>Learn Quran<br><span>with Usmani</span></h1>
+   <p>Learn from a qualified teacher for fast, clear progress. Build correct pronunciation, Tajweed and confidence through personalized online Quran lessons.</p>
+   <div class="actions"><a class="btn btn-green" href="#contact">Book Free Trial Class</a><a class="btn" style="border:1px solid #b9c5c1;background:#fff" href="#courses">Explore Courses</a></div>
+   <p class="small" style="margin-top:18px">One-to-one classes • Flexible timings • Kids & Adults • Online from anywhere</p>
+  </div>
+  <div class="hero-card">
+    <div class="pattern"></div>
+    <img src="usmani-poster.png" alt="Usmani Online Quran Academy poster">
+  </div>
+ </div>
+</section>
+
+<section class="section" id="courses">
+ <div class="container">
+  <div class="center"><div class="kicker">What We Teach</div><h2>Quran Courses</h2><p class="sub">Choose the course that matches your level and learning goals.</p></div>
+  <div class="cards">
+   <article class="card"><div class="icon">ا</div><h3>Qaida & Quran Reading</h3><p>Start from the basics and develop fluent, accurate Quran reading with proper pronunciation.</p></article>
+   <article class="card"><div class="icon">✦</div><h3>Tajweed</h3><p>Learn essential Tajweed rules and apply them correctly while reciting the Quran.</p></article>
+   <article class="card"><div class="icon">📖</div><h3>Quran Recitation</h3><p>Improve fluency, makharij and recitation through guided one-to-one practice.</p></article>
+   <article class="card"><div class="icon">🕌</div><h3>Hifz-e-Quran</h3><p>A structured memorization and revision routine designed around the student's pace.</p></article>
+   <article class="card"><div class="icon">ع</div><h3>Translation</h3><p>Understand the message and meanings of the Quran in an easy, structured way.</p></article>
+   <article class="card"><div class="icon">☾</div><h3>Tafseer</h3><p>Explore Quranic guidance and explanations for deeper understanding and reflection.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="section why" id="why">
+ <div class="container">
+  <div class="center"><div class="kicker">Why Choose Us</div><h2>Learn With Confidence</h2><p class="sub" style="color:#cbdad8">Personal attention, clear correction and flexible online learning.</p></div>
+  <div class="features">
+   <div class="feature"><div style="font-size:34px">🎓</div><strong>Qualified Teacher</strong><span>Guidance with focused correction</span></div>
+   <div class="feature"><div style="font-size:34px">👤</div><strong>One-to-One</strong><span>Personal attention in every class</span></div>
+   <div class="feature"><div style="font-size:34px">🕒</div><strong>Flexible Timings</strong><span>Choose a suitable schedule</span></div>
+   <div class="feature"><div style="font-size:34px">🌍</div><strong>Learn Anywhere</strong><span>Online classes from home</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="about">
+ <div class="container center">
+  <div class="kicker">Start Today</div><h2>Make Quran Learning a Part of Your Life</h2>
+  <p class="sub">Don't wait for the perfect moment. Begin your Quran learning journey now and experience the peace, confidence and blessings it brings.</p>
+  <a class="btn btn-gold" href="#contact">Start With a Free Trial</a>
+ </div>
+</section>
+
+<section class="cta" id="contact">
+ <div class="container">
+  <h2>Book Your Free Trial Class</h2>
+  <p style="margin:10px auto 28px;max-width:650px">Fill in the form and we’ll contact you on WhatsApp to arrange a suitable time.</p>
+  <div class="contact">
+   <div class="contact-box" style="color:#183238;text-align:left">
+    <h3 style="color:#0b5052;margin-bottom:12px">Contact Us</h3>
+    <div class="contact-item"><b>WhatsApp</b><br><a href="https://wa.me/923138999007" target="_blank">+92 313 8999007</a></div>
+    <div class="contact-item"><b>Email</b><br><a href="mailto:usmanionline786@gmail.com">usmanionline786@gmail.com</a></div>
+    <div class="contact-item"><b>Classes</b><br>Kids & Adults • One-to-One • Online</div>
+   </div>
+   <div class="contact-box">
+    <form onsubmit="sendWhatsApp(event)">
+      <input id="name" required placeholder="Your Name">
+      <input id="phone" placeholder="WhatsApp Number">
+      <select id="course"><option>Quran Reading</option><option>Qaida</option><option>Tajweed</option><option>Hifz-e-Quran</option><option>Translation</option><option>Tafseer</option></select>
+      <textarea id="message" placeholder="Preferred days/time (optional)"></textarea>
+      <button class="btn btn-green" type="submit">Request Free Trial on WhatsApp</button>
+    </form>
+   </div>
+  </div>
+ </div>
+</section>
+
+<footer>© <span id="year"></span> Usmani Online — Quran Learning With Excellence</footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+function sendWhatsApp(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value;
+ const phone=document.getElementById('phone').value;
+ const course=document.getElementById('course').value;
+ const msg=document.getElementById('message').value;
+ const text=`Assalamu Alaikum, I would like to book a free trial class at Usmani Online.%0A%0AName: ${encodeURIComponent(name)}%0AWhatsApp: ${encodeURIComponent(phone)}%0ACourse: ${encodeURIComponent(course)}%0APreferred time: ${encodeURIComponent(msg||'Not specified')}`;
+ window.open('https://wa.me/923138999007?text='+text,'_blank');
+}
+</script>
+</body>
+</html>
